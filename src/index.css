@@ -80,6 +80,10 @@ body {
 .sticky-wrapper {
   position: relative;
   height: 12rem;
+  background: #08001b;
+  color: #08001b;
+  box-shadow: var(--dark-shadow);
+  z-index: 1;
 }
 
 .sticky .all {
@@ -88,6 +92,7 @@ body {
   left: 0;
   right: 0;
   z-index: 1;
+  background: #08001b;
 }
 
 .loading h2 {
@@ -97,6 +102,7 @@ body {
 
 .title {
   text-align: center;
+  margin-top: 1rem;
   margin-bottom: 2rem;
 }
 .title h2 {
@@ -114,7 +120,7 @@ body {
   margin-right: auto;
 }
 .search-wrap {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   display: flex;
   justify-content: center;
 }
@@ -163,6 +169,7 @@ body {
   margin: 30px;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
   overflow: hidden;
+  z-index: 0;
 }
 
 .container:hover .card {
